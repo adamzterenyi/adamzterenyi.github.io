@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--External CSS sheet-->
+    <head>
+        <link rel="stylesheet" href="firstwebsitestyle.css">
+    </head>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZVT3C2EBW"></script>
     <script>
@@ -10,22 +15,77 @@
     gtag('config', 'G-6ZVT3C2EBW');
     </script>
 
-    <title>adamzterenyi.github.io</title>
+    <title>Adam's First Website</title><meta name="description" content="This is my first real website. It's been made for my introductory computer science course!">
 </head>
 
 <body>
-    <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="BTyqMY6k"></script>
-       
-        <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="menu"></div>
+        <h1 class="backgroundpicture">
+            <img class="headshot" width=150px title="My headshot." alt="A headshot of Adam Terenyi in the Kravis Center 3rd floor hallway." src="https://media-exp1.licdn.com/dms/image/C4E03AQE-Ff3QpLOmrQ/profile-displayphoto-shrink_800_800/0/1638250390754?e=1668643200&v=beta&t=qFjSbWy6FRmjDwhyQypRVoKQ_qnm4xVMkCaL37kxuAA"></img> 
+            <a class="linked-in" href="https://www.linkedin.com/in/adamterenyi/">&Aacute;d&aacute;m Zsolt Ter&eacute;nyi</a>
+        </h1>
+        <ol class="center">
+            <a href="index.html"><li class="menu-items">About</li></a>
+            <a href="hubert.html"><li class="menu-items">Hubert</li></a>
+            <a href="populism.html"><li class="menu-items">Populism</li></a>
+        </ol>
+    </div>
 
-    <p>
-        <div class="fb-like" data-href="https://adamzterenyi.github.io/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"></div>
-    </p>
-    
-    <p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-    </p>
+
+    <div class="about-paragraphs">
+        <p>Hello, my name is Adam Terenyi, and I'm a student studying International Relations at Claremont McKenna College.</p>  
+        <p>I'm deeply interested in urban planning, the linguistics of populism, political legitimation, and democratic backsliding.</p>
+        <p>This website is part of a project for a class I'm taking, Computing for the Web.</p>
+    </div>
+
+    <div class="link-list">
+        <p>Relevant links:</p>
+        <ul>
+            <li>Mike's <a class="home-list-links" href="https://izbicki.me/">webpage</a></li>
+            <li>Mike's <a class="home-list-links" href="https://github.com/mikeizbicki/cmc-csci040">repository</a></li>
+            <li>Henry's <a class="home-list-links" href="https://henrylong612.github.io/">webpage</a></li>
+            <li>Kevin's <a class="home-list-links" href="https://kevinl0378.github.io">webpage</a></li>
+            <li><a class="home-list-links" href="https://en.wikipedia.org/wiki/Family_Guy"><i>Family Guy</i></a></li>
+        </ul>
+    </div>
+
+    <div class="table-ranking">
+        <h3>Miscellaneous Opinions:</h3>
+            <table>
+                <tr>
+                    <th>Favorite <i>Family Guy</i> characters</th>
+                    <th>Favorite names</th>
+                    <th>Least favorite things (all around)</th>
+                </tr>
+                <tr>
+                    <td>Peter Griffin</td>
+                    <td><span class="hubert-span">Hubert Pellegrino</span></td>
+                    <td id="populism">Populism</td>
+                </tr>
+                <tr>
+                    <td>Stewie Griffin</td>
+                    <td>Belinda Pellegrino</td>
+                    <td>Democratic backsliding</td>
+                </tr>
+                <tr>
+                    <td>Brian Griffin</td>
+                    <td>Hubert Winfrey</td>
+                    <td>The ongoing Russian invasion of Ukraine</td>
+                </tr>
+            </table>
+
+        <!--FB like button-->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="BTyqMY6k"></script>
+
+        <p>
+            <div class="fb-like" data-href="https://adamzterenyi.github.io/" data-width="" data-layout="box_count" data-action="like" data-size="small" data-share="true"></div>
+        </p>
+
+        <!--Commons Licensing-->
+        <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+        </p>
+            </div>
 </body>
 </html>
